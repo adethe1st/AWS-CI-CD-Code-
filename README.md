@@ -1,5 +1,5 @@
 # AWS-CI-CD-CodePipeline
-This follows the deployment of a docker container that automatically redeploys the application on every commit to the repository. The container image is stored in an ECR private repository, and this is used by the Fargate cluster to automatically update the deployment. A load balancer was attached to the Fargate cluster to balance the load nd provide health checks
+This follows the deployment of a docker container that automatically redeploys the application on every commit to the repository. The container image is stored in an ECR private repository, and this is used by the Fargate cluster to automatically update the deployment. A load balancer was attached to the Fargate cluster to balance the load and provides health checks
 
 ![CI/CD](CI_CD.jpg)
 
